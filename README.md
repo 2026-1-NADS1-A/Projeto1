@@ -40,7 +40,7 @@ Funcionalidades:
 As regras do sistema foram formalizadas utilizando **Lógica Proposicional**.
 
 Conteúdo desenvolvido:
-- Definição de proposições (A, I, L, P)  
+- Definição de proposições (P, Q, R, S)  
 - Expressão lógica do sistema  
 - Tabela-verdade  
 - Cenários de teste com conclusão  
