@@ -21,7 +21,7 @@ Com base no diagrama elaborado:
 - Escola  
 - Usuário  
 - Relatório Escola  
-- Relatório Mensal  
+- Relatório Messier  
 - Compras  
 - Pacotes  
 - Jogos  
@@ -98,7 +98,7 @@ Com base no diagrama elaborado:
 
 O DER representa graficamente:
 - entidades (retângulos)  
-- atributos (ovais)  
+- atributos (circulos)  
 - relacionamentos (losangos)  
 
 Ele mostra como os dados estão conectados e como o sistema funciona logicamente.
