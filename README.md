@@ -6,7 +6,7 @@
 ## Pojeto Integrado
 
 ## Nome do Grupo
-Integrantes: 
+Integrantes:   
 Ana Julia Bernardo Quintans - 26028857  
 Clayton Santos Ferreira – 26029419  
 Leonardo Zachello Encinas - 26028745  
