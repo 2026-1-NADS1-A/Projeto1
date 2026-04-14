@@ -35,8 +35,8 @@ Desenvolver um sistema que envolva:
 ---
 
 ## 🛠 Estrutura de pastas
-Projeto1
-├── Documentos  
+Projeto1  
+├── Documentos    
 │   ├── Entrega 1  
 │   │   ├── Algoritmos_e_Logica_de_Programacao  
 │   │   │   └── Algoritimo_e_logica.pdf  
@@ -51,10 +51,10 @@ Projeto1
 │   │       ├── WinFormsApp2  
 │   │       └── WinFormsApp2.slnx  
 │   ├── Entrega 2  
-├── imagens <br>
-│   └── image.png <br>
-├── .gitignore <br>
-└── README.md <br>
+├── imagens  
+│   └── image.png   
+├── .gitignore   
+└── README.md   
 ---
 
 ### 📊 Modelagem Conceitual do Banco de Dados
