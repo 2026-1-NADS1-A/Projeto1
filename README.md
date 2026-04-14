@@ -1,7 +1,8 @@
 ## FECAP - Fundação de Comércio Álvares Penteado
-                                   ![Descrição](imagens/image.png)
+                                   ![Descrição](imagens/image.png
 
-                                PROJETO INTEGRADO
+                           
+## Pojeto Integrado
 
 ## Nome do Grupo
 Integrantes: 
