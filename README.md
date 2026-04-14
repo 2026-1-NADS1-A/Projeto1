@@ -36,25 +36,25 @@ Desenvolver um sistema que envolva:
 
 ## 🛠 Estrutura de pastas
 Projeto1
-├── Documentos
-│   ├── Entrega 1
-│   │   ├── Algoritmos_e_Logica_de_Programacao
-│   │   │   └── Algoritimo_e_logica.pdf
-│   │   ├── BD
-│   │   │   ├── Modelagem_Banco_de_Dados.pdf
-│   │   │   └── README.md
-│   │   ├── Matematica_Discreta
-│   │   │   └── Regras_em_Logica.pdf
-│   │   ├── Modelagem
-│   │   │   └── Modelagem_de_Software.pdf
-│   │   └── Redes_de_Computadores
-│   │       ├── WinFormsApp2
-│   │       └── WinFormsApp2.slnx
-│   ├── Entrega 2
-├── imagens
-│   └── image.png
-├── .gitignore
-└── README.md
+├── Documentos  
+│   ├── Entrega 1  
+│   │   ├── Algoritmos_e_Logica_de_Programacao  
+│   │   │   └── Algoritimo_e_logica.pdf  
+│   │   ├── BD  
+│   │   │   ├── Modelagem_Banco_de_Dados.pdf  
+│   │   │   └── README.md  
+│   │   ├── Matematica_Discreta  
+│   │   │   └── Regras_em_Logica.pdf  
+│   │   ├── Modelagem  
+│   │   │   └── Modelagem_de_Software.pdf  
+│   │   └── Redes_de_Computadores  
+│   │       ├── WinFormsApp2  
+│   │       └── WinFormsApp2.slnx  
+│   ├── Entrega 2  
+├── imagens <br>
+│   └── image.png <br>
+├── .gitignore <br>
+└── README.md <br>
 ---
 
 ### 📊 Modelagem Conceitual do Banco de Dados
