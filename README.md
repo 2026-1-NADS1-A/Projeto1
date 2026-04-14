@@ -35,9 +35,8 @@ Desenvolver um sistema que envolva:
 ---
 
 ## 🛠 Estrutura de pastas
-<small>
 
-```plaintext
+<small>
 Projeto1
 ├── Documentos
 │   ├── Entrega 1
@@ -59,6 +58,8 @@ Projeto1
 │   └── image.png
 ├── .gitignore
 └── README.md
+</small> ```
+
 
 ---
 
