@@ -1,4 +1,5 @@
-# 📌 Projeto Integrador (PI)
+![alt text](image.png)
+
 
 ## 📖 Descrição Geral
 Este projeto tem como objetivo integrar conhecimentos de banco de dados, lógica de programação, desenvolvimento em C# e modelagem de sistemas, por meio da construção de soluções práticas e documentação estruturada.
