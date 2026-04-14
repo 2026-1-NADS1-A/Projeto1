@@ -37,7 +37,8 @@ Desenvolver um sistema que envolva:
 ## 🛠 Estrutura de pastas
 
 <small>
-  ```plaintext
+
+```plaintext
 Projeto1
 ├── Documentos
 │   ├── Entrega 1
@@ -51,17 +52,15 @@ Projeto1
 │   │   ├── Modelagem
 │   │   │   └── Modelagem_de_Software.pdf
 │   │   └── Redes_de_Computadores
-│   │       ├── WinFormsApp2
-│   │       └── WinFormsApp2.slnx
+│   │       └── WinFormsApp2
+│   │           └── WinFormsApp2.slnx
 │   ├── Entrega 2
 │   │   └── a.txt
 ├── imagens
 │   └── image.png
 ├── .gitignore
 └── README.md
-  ```plaintext
-</small> ```
-
+```
 
 ---
 
