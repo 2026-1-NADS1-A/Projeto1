@@ -7,11 +7,11 @@
 
 ## Nome do Grupo
 Integrantes: 
-Ana Julia Bernardo Quintans - 26028857
-Clayton Santos Ferreira – 26029419
-Leonardo Zachello Encinas - 26028745
-Riane Toscano - 26029235
-Ricardo Branco Rios – 26029360
+Ana Julia Bernardo Quintans - 26028857  
+Clayton Santos Ferreira – 26029419  
+Leonardo Zachello Encinas - 26028745  
+Riane Toscano - 26029235  
+Ricardo Branco Rios – 26029360  
 
 ---
 
