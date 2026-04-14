@@ -1,4 +1,4 @@
-![Descrição](imagens/Bootstrap_5.0_Screenshot.png)
+![Descrição](imagens/image.png)
 
 ## 📖 Descrição Geral
 Este projeto tem como objetivo integrar conhecimentos de banco de dados, lógica de programação, desenvolvimento em C# e modelagem de sistemas, por meio da construção de soluções práticas e documentação estruturada.
