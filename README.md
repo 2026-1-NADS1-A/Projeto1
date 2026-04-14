@@ -1,4 +1,21 @@
-![Descrição](imagens/image.png)
+## FECAP - Fundação de Comércio Álvares Penteado
+                                   ![Descrição](imagens/image.png)
+
+                                PROJETO INTEGRADO
+
+## Nome do Grupo
+Integrantes: 
+Ana Julia Bernardo Quintans - 26028857
+Clayton Santos Ferreira – 26029419
+Leonardo Zachello Encinas - 26028745
+Riane Toscano - 26029235
+Ricardo Branco Rios – 26029360
+
+---
+
+## Professor Orientador: Eduardo Savino
+
+---
 
 ## 📖 Descrição Geral
 Este projeto tem como objetivo integrar conhecimentos de banco de dados, lógica de programação, desenvolvimento em C# e modelagem de sistemas, por meio da construção de soluções práticas e documentação estruturada.
@@ -15,7 +32,28 @@ Desenvolver um sistema que envolva:
 
 ---
 
-## 📂 Estrutura do Projeto
+## 🛠 Estrutura de pastas
+Projeto1
+├── Documentos
+│   ├── Entrega 1
+│   │   ├── Algoritmos_e_Logica_de_Programacao
+│   │   │   └── Algoritimo_e_logica.pdf
+│   │   ├── BD
+│   │   │   ├── Modelagem_Banco_de_Dados.pdf
+│   │   │   └── README.md
+│   │   ├── Matematica_Discreta
+│   │   │   └── Regras_em_Logica.pdf
+│   │   ├── Modelagem
+│   │   │   └── Modelagem_de_Software.pdf
+│   │   └── Redes_de_Computadores
+│   │       ├── WinFormsApp2
+│   │       └── WinFormsApp2.slnx
+│   ├── Entrega 2
+├── imagens
+│   └── image.png
+├── .gitignore
+└── README.md
+---
 
 ### 📊 Modelagem Conceitual do Banco de Dados
 A modelagem conceitual foi realizada utilizando o **Diagrama Entidade-Relacionamento (DER)**, representando as entidades e seus relacionamentos.
