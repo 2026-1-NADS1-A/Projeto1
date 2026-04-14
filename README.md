@@ -52,10 +52,10 @@ Projeto1
 │   │   ├── Modelagem
 │   │   │   └── Modelagem_de_Software.pdf
 │   │   └── Redes_de_Computadores
-│   │       └── WinFormsApp2
-│   │           └── WinFormsApp2.slnx
+│   │       ├── WinFormsApp2
+│   │       └── WinFormsApp2.slnx
 │   ├── Entrega 2
-│   │   └── a.txt
+│   │  
 ├── imagens
 │   └── image.png
 ├── .gitignore
