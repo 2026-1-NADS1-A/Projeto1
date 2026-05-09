@@ -1,0 +1,34 @@
+C:\Users\anny\OneDrive\Desktop\ipPI\WinFormsApp2\bin\Debug\net10.0-windows\Validação de IP.exe
+C:\Users\anny\OneDrive\Desktop\ipPI\WinFormsApp2\bin\Debug\net10.0-windows\Validação de IP.deps.json
+C:\Users\anny\OneDrive\Desktop\ipPI\WinFormsApp2\bin\Debug\net10.0-windows\Validação de IP.runtimeconfig.json
+C:\Users\anny\OneDrive\Desktop\ipPI\WinFormsApp2\bin\Debug\net10.0-windows\Validação de IP.dll
+C:\Users\anny\OneDrive\Desktop\ipPI\WinFormsApp2\bin\Debug\net10.0-windows\Validação de IP.pdb
+C:\Users\anny\OneDrive\Desktop\ipPI\WinFormsApp2\obj\Debug\net10.0-windows\WinFormsApp2.Form1.resources
+C:\Users\anny\OneDrive\Desktop\ipPI\WinFormsApp2\obj\Debug\net10.0-windows\Validação_de_IP.Properties.Resources.resources
+C:\Users\anny\OneDrive\Desktop\ipPI\WinFormsApp2\obj\Debug\net10.0-windows\Validação de IP.csproj.GenerateResource.cache
+C:\Users\anny\OneDrive\Desktop\ipPI\WinFormsApp2\obj\Debug\net10.0-windows\Validação de IP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anny\OneDrive\Desktop\ipPI\WinFormsApp2\obj\Debug\net10.0-windows\Validação de IP.AssemblyInfoInputs.cache
+C:\Users\anny\OneDrive\Desktop\ipPI\WinFormsApp2\obj\Debug\net10.0-windows\Validação de IP.AssemblyInfo.cs
+C:\Users\anny\OneDrive\Desktop\ipPI\WinFormsApp2\obj\Debug\net10.0-windows\Validação de IP.csproj.CoreCompileInputs.cache
+C:\Users\anny\OneDrive\Desktop\ipPI\WinFormsApp2\obj\Debug\net10.0-windows\Validação de IP.dll
+C:\Users\anny\OneDrive\Desktop\ipPI\WinFormsApp2\obj\Debug\net10.0-windows\refint\Validação de IP.dll
+C:\Users\anny\OneDrive\Desktop\ipPI\WinFormsApp2\obj\Debug\net10.0-windows\Validação de IP.pdb
+C:\Users\anny\OneDrive\Desktop\ipPI\WinFormsApp2\obj\Debug\net10.0-windows\Validação de IP.genruntimeconfig.cache
+C:\Users\anny\OneDrive\Desktop\ipPI\WinFormsApp2\obj\Debug\net10.0-windows\ref\Validação de IP.dll
+C:\Users\anny\OneDrive\Desktop\PI entrega\ipPI\WinFormsApp2\bin\Debug\net10.0-windows\Validação de IP.exe
+C:\Users\anny\OneDrive\Desktop\PI entrega\ipPI\WinFormsApp2\bin\Debug\net10.0-windows\Validação de IP.deps.json
+C:\Users\anny\OneDrive\Desktop\PI entrega\ipPI\WinFormsApp2\bin\Debug\net10.0-windows\Validação de IP.runtimeconfig.json
+C:\Users\anny\OneDrive\Desktop\PI entrega\ipPI\WinFormsApp2\bin\Debug\net10.0-windows\Validação de IP.dll
+C:\Users\anny\OneDrive\Desktop\PI entrega\ipPI\WinFormsApp2\bin\Debug\net10.0-windows\Validação de IP.pdb
+C:\Users\anny\OneDrive\Desktop\PI entrega\ipPI\WinFormsApp2\obj\Debug\net10.0-windows\WinFormsApp2.Form1.resources
+C:\Users\anny\OneDrive\Desktop\PI entrega\ipPI\WinFormsApp2\obj\Debug\net10.0-windows\Validação_de_IP.Properties.Resources.resources
+C:\Users\anny\OneDrive\Desktop\PI entrega\ipPI\WinFormsApp2\obj\Debug\net10.0-windows\Validação de IP.csproj.GenerateResource.cache
+C:\Users\anny\OneDrive\Desktop\PI entrega\ipPI\WinFormsApp2\obj\Debug\net10.0-windows\Validação de IP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anny\OneDrive\Desktop\PI entrega\ipPI\WinFormsApp2\obj\Debug\net10.0-windows\Validação de IP.AssemblyInfoInputs.cache
+C:\Users\anny\OneDrive\Desktop\PI entrega\ipPI\WinFormsApp2\obj\Debug\net10.0-windows\Validação de IP.AssemblyInfo.cs
+C:\Users\anny\OneDrive\Desktop\PI entrega\ipPI\WinFormsApp2\obj\Debug\net10.0-windows\Validação de IP.csproj.CoreCompileInputs.cache
+C:\Users\anny\OneDrive\Desktop\PI entrega\ipPI\WinFormsApp2\obj\Debug\net10.0-windows\Validação de IP.dll
+C:\Users\anny\OneDrive\Desktop\PI entrega\ipPI\WinFormsApp2\obj\Debug\net10.0-windows\refint\Validação de IP.dll
+C:\Users\anny\OneDrive\Desktop\PI entrega\ipPI\WinFormsApp2\obj\Debug\net10.0-windows\Validação de IP.pdb
+C:\Users\anny\OneDrive\Desktop\PI entrega\ipPI\WinFormsApp2\obj\Debug\net10.0-windows\Validação de IP.genruntimeconfig.cache
+C:\Users\anny\OneDrive\Desktop\PI entrega\ipPI\WinFormsApp2\obj\Debug\net10.0-windows\ref\Validação de IP.dll
