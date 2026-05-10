@@ -68,11 +68,12 @@ Projeto1
 A modelagem conceitual foi realizada utilizando o **Diagrama Entidade-Relacionamento (DER)**, representando as entidades e seus relacionamentos.
 
 📎 Acesse aqui: 
-Entrega 1
+
+Entrega 1: 
 ➡️ [`Documentos/Entrega 1/BD/README.md`](https://github.com/2026-1-NADS1-A/Projeto1/blob/main/Documentos/Entrega%201/BD/README.md)
 
-Entrega 2
-➡️ [`Documentos/Entrega 2/Banco_de_Dados/README.md`]https://github.com/2026-1-NADS1-A/Projeto1/blob/main/Documentos/Entrega%202/Banco_de_Dados/README.md
+Entrega 2:
+➡️ [`Documentos/Entrega 2/Banco_de_Dados/README.md`](https://github.com/2026-1-NADS1-A/Projeto1/blob/main/Documentos/Entrega%202/Banco_de_Dados/README.md)
 
 ---
 
