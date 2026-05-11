@@ -73,7 +73,7 @@ Entrega 1:
 ➡️ [`Documentos/Entrega 1/BD/README.md`](https://github.com/2026-1-NADS1-A/Projeto1/blob/main/Documentos/Entrega%201/BD/README.md)
 
 Entrega 2:
-➡️ [`Documentos/Entrega 2/Banco_de_Dados/README.md`](https://github.com/2026-1-NADS1-A/Projeto1/blob/main/Documentos/Entrega%202/Banco_de_Dados/README.md)
+➡️ [`Documentos/Entrega 2/BD/README.md`](https://github.com/2026-1-NADS1-A/Projeto1/tree/main/Documentos/Entrega%202/BD)
 
 ---
 
