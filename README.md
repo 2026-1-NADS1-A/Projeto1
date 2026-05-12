@@ -22,7 +22,7 @@ Aimar Martins Lopes, Daniel Tressoldi da Cunha, Eduardo Savino Gomes, Lucy Mari 
 # 📖 Descrição
 
 <p align="center">
-  <img src="[imagens/game.jpg](https://github.com/2026-1-NADS1-A/Projeto1/blob/main/imagens/Image%2011%20de%20mai.%20de%202026%2C%2021_52_44.png)" width="700"/>
+  <img src="https://github.com/2026-1-NADS1-A/Projeto1/blob/main/imagens/Image%2011%20de%20mai.%20de%202026%2C%2021_52_44.png" width="700"/>
 </p>
 
 O projeto Messier é uma plataforma de gerenciamento de jogos educacionais desenvolvida para escolas de ensino fundamental e médio.
