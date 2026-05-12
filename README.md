@@ -39,7 +39,6 @@ May the force be with you!
 
 ```bash
 Raiz
-|
 ├── documentos
 ├── executaveis
 │   ├── windows
