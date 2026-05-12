@@ -12,21 +12,11 @@
 ### Nome do Grupo
 Messier Team
 
-### Integrantes
-- Ana Julia Bernardo Quintans
-- Clayton Santos Ferreira
-- Leonardo Zachello Encinas
-- Riane Toscano
-- Ricardo Branco Rios
+### Integrantes:  
+Ana Julia Bernardo Quintans, Clayton Santos Ferreira, Leonardo Zachello Encinas, Riane Toscano, Ricardo Branco Rios
 
-### Professores Orientadores
-- Aimar Martins Lopes
-- Daniel Tressoldi da Cunha
-- Eduardo Savino Gomes
-- Lucy Mari Tabuti
-- Renata Muniz do Nascimento
-- Ronaldo Araujo Pinto
-
+### Professores Orientadores:  
+Aimar Martins Lopes, Daniel Tressoldi da Cunha, Eduardo Savino Gomes, Lucy Mari Tabuti, Renata Muniz do Nascimento, Ronaldo Araujo Pinto
 ---
 
 # 📖 Descrição
