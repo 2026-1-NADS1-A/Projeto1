@@ -1,132 +1,198 @@
-## FECAP - Fundação de Comércio Álvares Penteado
+# FECAP - Fundação de Comércio Álvares Penteado
 
-  ![Descrição](imagens/image.png)
-
-                           
-## Pojeto Integrado
-
-## Nome do Grupo
-Integrantes:   
-Ana Julia Bernardo Quintans - 26028857  
-Clayton Santos Ferreira – 26029419  
-Leonardo Zachello Encinas - 26028745  
-Riane Toscano - 26029235  
-Ricardo Branco Rios – 26029360  
+<p align="center">
+  <img src="imagens/logo/logo-fecap.png" width="200"/>
+</p>
 
 ---
 
-## Professor Orientador: Eduardo Savino
+# MESSIER
+
+## Plataforma de Gerenciamento de Jogos Educacionais
+
+### Nome do Grupo
+Messier Team
+
+### Integrantes
+- Ana Julia Bernardo Quintans
+- Clayton Santos Ferreira
+- Leonardo Zachello Encinas
+- Riane Toscano
+- Ricardo Branco Rios
+
+### Professores Orientadores
+- Aimar Martins Lopes
+- Daniel Tressoldi da Cunha
+- Eduardo Savino Gomes
+- Lucy Mari Tabuti
+- Renata Muniz do Nascimento
+- Ronaldo Araujo Pinto
 
 ---
 
-## 📖 Descrição Geral
-Este projeto tem como objetivo integrar conhecimentos de banco de dados, lógica de programação, desenvolvimento em C# e modelagem de sistemas, por meio da construção de soluções práticas e documentação estruturada.
+# 📖 Descrição
+
+<p align="center">
+  <img src="imagens/game.jpg" width="700"/>
+</p>
+
+O projeto Messier é uma plataforma de gerenciamento de jogos educacionais desenvolvida para escolas de ensino fundamental e médio.
+
+O sistema permite autenticação de escolas, controle de acessos mensais, validação de IPs autorizados, gerenciamento de pacotes de jogos e registro de logs de utilização.
+
+A aplicação foi criada com foco em organização, segurança e praticidade, permitindo que escolas realizem autenticação, consultem jogos disponíveis em seus pacotes e acompanhem o consumo mensal de acessos.
+
+May the force be with you!
 
 ---
 
-## 🎯 Objetivo do Projeto
-Desenvolver um sistema que envolva:
-- Modelagem de banco de dados  
-- Validação de acesso por IP  
-- Aplicação de lógica proposicional  
-- Uso de estruturas de programação  
-- Definição de requisitos do sistema  
+# 🛠 Estrutura de Pastas
 
----
-
-## 🛠 Estrutura de pastas
-
-<small>
-
-```plaintext
-Projeto1
-├── Documentos
-│   ├── Entrega 1
-│   │   ├── Algoritmos_e_Logica_de_Programacao
-│   │   │   └── Algoritimo_e_logica.pdf
-│   │   ├── BD
-│   │   │   ├── Modelagem_Banco_de_Dados.pdf
-│   │   │   └── README.md
-│   │   ├── Matematica_Discreta
-│   │   │   └── Regras_em_Logica.pdf
-│   │   ├── Modelagem
-│   │   │   └── Modelagem_de_Software.pdf
-│   │   └── Redes_de_Computadores
-│   │       ├── WinFormsApp2
-│   │       └── WinFormsApp2.slnx
-│   ├── Entrega 2
-│   │  
+```bash
+Raiz
+|
+├── documentos
+├── executaveis
+│   ├── windows
+│   ├── android
+│   └── html
+|
 ├── imagens
-│   └── image.png
-├── .gitignore
-└── README.md
+│   ├── logo
+│   ├── prototipos
+│   └── diagramas
+|
+├── src
+│   ├── backend
+│   └── frontend
+├── README.md
+├── requirements.txt
+└── .gitignore
+```
+
+A pasta raiz contém os arquivos principais do projeto.
+
+### README.md
+Arquivo responsável pela documentação geral e explicação do projeto.
+
+### documentos
+Contém requisitos, diagramas UML, relatórios e documentação técnica.
+
+### executaveis
+Pasta destinada aos executáveis do sistema.
+
+### imagens
+Armazena imagens utilizadas na documentação e no sistema.
+
+### src
+Contém todo o código-fonte da aplicação.
+
+### backend
+Responsável pelas regras de negócio, banco de dados e serviços do sistema.
+
+### frontend
+Responsável pela interface visual e interação com o usuário.
+
+---
+
+# ⚙️ Funcionalidades
+
+- Cadastro de Games
+- Cadastro de Pacotes
+- Cadastro de Escolas
+- Consulta de IP da máquina
+- Validação de acesso por IP
+- Controle de acessos mensais
+- Registro de logs
+- Catálogo de jogos
+
+---
+
+# 🚀 Instalação
+
+## Windows
+
+Não há instalação necessária.
+
+Execute o arquivo `.exe` localizado na pasta:
+
+```bash
+executaveis/windows
 ```
 
 ---
 
-### 📊 Modelagem Conceitual do Banco de Dados
-A modelagem conceitual foi realizada utilizando o **Diagrama Entidade-Relacionamento (DER)**, representando as entidades e seus relacionamentos.
+## Python
 
-📎 Acesse aqui: 
+Clone o projeto:
 
-Entrega 1: 
-➡️ [`Documentos/Entrega 1/BD/README.md`](https://github.com/2026-1-NADS1-A/Projeto1/blob/main/Documentos/Entrega%201/BD/README.md)
+```bash
+git clone https://github.com/seu-usuario/messier.git
+```
 
-Entrega 2:
-➡️ [`Documentos/Entrega 2/BD/README.md`](https://github.com/2026-1-NADS1-A/Projeto1/tree/main/Documentos/Entrega%202/BD)
+Entre na pasta:
 
----
+```bash
+cd messier
+```
 
-### 💻 Simulação de Verificação de IP (C#)
-Foi desenvolvida uma aplicação em C# para validar o acesso com base no endereço IP.
+Instale as dependências:
 
-Funcionalidades:
-- Verificar se o IP é autorizado  
-- Bloquear acessos não permitidos  
-- Registrar logs com data e hora  
-- Exibir histórico de tentativas  
+```bash
+pip install pyperclip
+```
 
----
+Execute o projeto:
 
-### 🧠 Regras em Lógica
-As regras do sistema foram formalizadas utilizando **Lógica Proposicional**.
-
-Conteúdo desenvolvido:
-- Definição de proposições (P, Q, R, S)  
-- Expressão lógica do sistema  
-- Tabela-verdade  
-- Cenários de teste com conclusão  
+```bash
+python main.py
+```
 
 ---
 
-### 🔄 Estruturas de Programação
-Aplicação das estruturas fundamentais:
+# 💻 Configuração para Desenvolvimento
 
-- **Sequencial** → execução passo a passo  
-- **Decisão** → validação de IP (if/else)  
-- **Repetição** → registro e exibição de logs  
+Para abrir e desenvolver este projeto você necessita:
 
----
-
-### 📋 Requisitos do Sistema
-
-#### ✔️ Requisitos Funcionais
-1. Permitir validação de IP  
-2. Registrar tentativas de acesso  
-3. Exibir histórico de logs  
-4. Permitir acesso autorizado  
-5. Bloquear acesso não autorizado  
-6. Gerar relatórios básicos  
-
-#### ⚙️ Requisitos Não Funcionais
-1. Segurança no controle de acesso  
-2. Desempenho na validação  
-3. Usabilidade simples  
-4. Organização do código  
-5. Confiabilidade dos dados  
-6. Compatibilidade com ambiente Windows  
+- Python 3
+- VS Code
+- Git
+- SQLite
+- C#
 
 ---
 
-## 💡 Conclusão
-Este projeto permitiu a aplicação prática de conceitos fundamentais da área de tecnologia, integrando teoria e prática na construção de uma solução completa.
+# 📊 Diagramas UML
+
+O projeto possui:
+
+- Diagrama de Caso de Uso
+- Diagrama de Classe
+- Requisitos Funcionais
+- Requisitos Não Funcionais
+- Fluxograma da aplicação
+
+---
+
+# 📋 Licença/License
+
+Este projeto utiliza a licença CC BY 4.0.
+
+https://creativecommons.org/licenses/by/4.0/
+
+---
+
+# 🎓 Referências
+
+1. https://github.com/fecaphub/Template_PI  
+2. https://github.com/iuricode/readme-template  
+3. https://github.com/gabrieldejesus/readme-model  
+4. https://www.python.org/  
+5. https://docs.python.org/3/library/socket.html  
+6. https://pyperclip.readthedocs.io/  
+
+---
+
+# 🎓 Projeto Acadêmico
+
+Projeto desenvolvido para o curso de Análise e Desenvolvimento de Sistemas da FECAP.
