@@ -1,9 +1,8 @@
 # FECAP - Fundação de Comércio Álvares Penteado
 
 <p align="center">
-  <img src="imagens/logo/logo-fecap.png" width="200"/>
+  <img src="https://github.com/2026-1-NADS1-A/Projeto1/blob/main/imagens/image.png" width="200"/>
 </p>
-
 ---
 
 # MESSIER
