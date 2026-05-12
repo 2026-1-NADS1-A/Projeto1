@@ -31,8 +31,6 @@ O sistema permite autenticação de escolas, controle de acessos mensais, valida
 
 A aplicação foi criada com foco em organização, segurança e praticidade, permitindo que escolas realizem autenticação, consultem jogos disponíveis em seus pacotes e acompanhem o consumo mensal de acessos.
 
-May the force be with you!
-
 ---
 
 # 🛠 Estrutura de Pastas
