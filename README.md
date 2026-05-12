@@ -17,6 +17,7 @@ Ana Julia Bernardo Quintans, Clayton Santos Ferreira, Leonardo Zachello Encinas,
 
 ### Professores Orientadores:  
 Aimar Martins Lopes, Daniel Tressoldi da Cunha, Eduardo Savino Gomes, Lucy Mari Tabuti, Renata Muniz do Nascimento, Ronaldo Araujo Pinto
+
 ---
 
 # 📖 Descrição
@@ -155,6 +156,12 @@ O projeto possui:
 - Requisitos Funcionais
 - Requisitos Não Funcionais
 - Fluxograma da aplicação
+
+---
+
+# 📊 Banco de Dados
+
+https://github.com/2026-1-NADS1-A/Projeto1/blob/main/Documentos/Entrega%202/BD/README.md
 
 ---
 
