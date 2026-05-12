@@ -45,12 +45,10 @@ Raiz
 │   ├── windows
 │   ├── android
 │   └── html
-|
 ├── imagens
 │   ├── logo
 │   ├── prototipos
 │   └── diagramas
-|
 ├── src
 │   ├── backend
 │   └── frontend
