@@ -58,7 +58,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.MidnightBlue;
+            BackColor = Color.RoyalBlue;
             ClientSize = new Size(613, 327);
             Controls.Add(txtRelatorio);
             Controls.Add(btnImprimir);

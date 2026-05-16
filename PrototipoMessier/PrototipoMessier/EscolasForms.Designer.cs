@@ -36,13 +36,13 @@
             txtInstituicao = new TextBox();
             txtIP = new TextBox();
             grdEscolas = new DataGridView();
-            chkPacote = new CheckedListBox();
-            btnSalvar = new Button();
-            btnNovo = new Button();
             CNPJ = new DataGridViewTextBoxColumn();
             NomeInstituição = new DataGridViewTextBoxColumn();
             Pacote = new DataGridViewTextBoxColumn();
             IP = new DataGridViewTextBoxColumn();
+            chkPacote = new CheckedListBox();
+            btnSalvar = new Button();
+            btnNovo = new Button();
             ((System.ComponentModel.ISupportInitialize)grdEscolas).BeginInit();
             SuspendLayout();
             // 
@@ -105,7 +105,7 @@
             txtInstituicao.Location = new Point(171, 44);
             txtInstituicao.Name = "txtInstituicao";
             txtInstituicao.Size = new Size(157, 23);
-            txtInstituicao.TabIndex = 5;
+            txtInstituicao.TabIndex = 1;
             // 
             // txtIP
             // 
@@ -113,7 +113,7 @@
             txtIP.Location = new Point(171, 156);
             txtIP.Name = "txtIP";
             txtIP.Size = new Size(157, 23);
-            txtIP.TabIndex = 7;
+            txtIP.TabIndex = 3;
             // 
             // grdEscolas
             // 
@@ -122,40 +122,8 @@
             grdEscolas.Location = new Point(41, 189);
             grdEscolas.Name = "grdEscolas";
             grdEscolas.Size = new Size(539, 127);
-            grdEscolas.TabIndex = 8;
+            grdEscolas.TabIndex = 6;
             grdEscolas.CellContentClick += dataGridView1_CellContentClick;
-            // 
-            // chkPacote
-            // 
-            chkPacote.BackColor = Color.DimGray;
-            chkPacote.FormattingEnabled = true;
-            chkPacote.Items.AddRange(new object[] { "Bronze", "Prata", "Ouro", "Personalizado" });
-            chkPacote.Location = new Point(171, 73);
-            chkPacote.Name = "chkPacote";
-            chkPacote.Size = new Size(157, 76);
-            chkPacote.TabIndex = 9;
-            // 
-            // btnSalvar
-            // 
-            btnSalvar.Location = new Point(397, 157);
-            btnSalvar.Margin = new Padding(3, 2, 3, 2);
-            btnSalvar.Name = "btnSalvar";
-            btnSalvar.Size = new Size(82, 22);
-            btnSalvar.TabIndex = 14;
-            btnSalvar.Text = "Salvar";
-            btnSalvar.UseVisualStyleBackColor = true;
-            btnSalvar.Click += btnSalvar_Click;
-            // 
-            // btnNovo
-            // 
-            btnNovo.Location = new Point(498, 157);
-            btnNovo.Margin = new Padding(3, 2, 3, 2);
-            btnNovo.Name = "btnNovo";
-            btnNovo.Size = new Size(82, 22);
-            btnNovo.TabIndex = 15;
-            btnNovo.Text = "Novo";
-            btnNovo.UseVisualStyleBackColor = true;
-            btnNovo.Click += btnNovo_Click;
             // 
             // CNPJ
             // 
@@ -183,6 +151,38 @@
             IP.MaxInputLength = 15;
             IP.Name = "IP";
             IP.Width = 125;
+            // 
+            // chkPacote
+            // 
+            chkPacote.BackColor = Color.DimGray;
+            chkPacote.FormattingEnabled = true;
+            chkPacote.Items.AddRange(new object[] { "Bronze", "Prata", "Ouro", "Personalizado" });
+            chkPacote.Location = new Point(171, 73);
+            chkPacote.Name = "chkPacote";
+            chkPacote.Size = new Size(157, 76);
+            chkPacote.TabIndex = 2;
+            // 
+            // btnSalvar
+            // 
+            btnSalvar.Location = new Point(397, 157);
+            btnSalvar.Margin = new Padding(3, 2, 3, 2);
+            btnSalvar.Name = "btnSalvar";
+            btnSalvar.Size = new Size(82, 22);
+            btnSalvar.TabIndex = 4;
+            btnSalvar.Text = "Salvar";
+            btnSalvar.UseVisualStyleBackColor = true;
+            btnSalvar.Click += btnSalvar_Click;
+            // 
+            // btnNovo
+            // 
+            btnNovo.Location = new Point(498, 157);
+            btnNovo.Margin = new Padding(3, 2, 3, 2);
+            btnNovo.Name = "btnNovo";
+            btnNovo.Size = new Size(82, 22);
+            btnNovo.TabIndex = 5;
+            btnNovo.Text = "Novo";
+            btnNovo.UseVisualStyleBackColor = true;
+            btnNovo.Click += btnNovo_Click;
             // 
             // EscolasForms
             // 

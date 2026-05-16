@@ -82,32 +82,36 @@
             // 
             // txtID
             // 
-            txtID.BackColor = Color.DimGray;
+            txtID.BackColor = Color.White;
+            txtID.BorderStyle = BorderStyle.FixedSingle;
+            txtID.ForeColor = Color.Black;
             txtID.Location = new Point(171, 14);
             txtID.Margin = new Padding(3, 2, 3, 2);
             txtID.Name = "txtID";
             txtID.Size = new Size(62, 23);
-            txtID.TabIndex = 3;
+            txtID.TabIndex = 0;
             txtID.TextChanged += txtID_TextChanged;
             // 
             // txtNome
             // 
-            txtNome.BackColor = Color.DimGray;
+            txtNome.BackColor = Color.White;
+            txtNome.BorderStyle = BorderStyle.FixedSingle;
             txtNome.Location = new Point(171, 44);
             txtNome.Margin = new Padding(3, 2, 3, 2);
             txtNome.Name = "txtNome";
             txtNome.Size = new Size(409, 23);
-            txtNome.TabIndex = 4;
+            txtNome.TabIndex = 1;
             // 
             // txtDescricao
             // 
-            txtDescricao.BackColor = Color.DimGray;
+            txtDescricao.BackColor = Color.White;
+            txtDescricao.BorderStyle = BorderStyle.FixedSingle;
             txtDescricao.Location = new Point(171, 72);
             txtDescricao.Margin = new Padding(3, 2, 3, 2);
             txtDescricao.Multiline = true;
             txtDescricao.Name = "txtDescricao";
             txtDescricao.Size = new Size(409, 63);
-            txtDescricao.TabIndex = 5;
+            txtDescricao.TabIndex = 2;
             // 
             // btnNovo
             // 
@@ -116,7 +120,7 @@
             btnNovo.Margin = new Padding(3, 2, 3, 2);
             btnNovo.Name = "btnNovo";
             btnNovo.Size = new Size(82, 22);
-            btnNovo.TabIndex = 6;
+            btnNovo.TabIndex = 5;
             btnNovo.Text = "Novo";
             btnNovo.UseVisualStyleBackColor = false;
             btnNovo.Click += btnNovo_Click;
@@ -128,7 +132,7 @@
             btnSalvar.Margin = new Padding(3, 2, 3, 2);
             btnSalvar.Name = "btnSalvar";
             btnSalvar.Size = new Size(82, 22);
-            btnSalvar.TabIndex = 7;
+            btnSalvar.TabIndex = 4;
             btnSalvar.Text = "Salvar";
             btnSalvar.UseVisualStyleBackColor = false;
             btnSalvar.Click += btnSalvar_Click;
@@ -144,7 +148,7 @@
             grdJogos.Name = "grdJogos";
             grdJogos.RowHeadersWidth = 51;
             grdJogos.Size = new Size(539, 127);
-            grdJogos.TabIndex = 8;
+            grdJogos.TabIndex = 6;
             grdJogos.CellContentClick += grdJogos_CellContentClick;
             // 
             // ID
@@ -191,7 +195,7 @@
             chkAtivo.Location = new Point(171, 139);
             chkAtivo.Name = "chkAtivo";
             chkAtivo.Size = new Size(62, 20);
-            chkAtivo.TabIndex = 9;
+            chkAtivo.TabIndex = 3;
             chkAtivo.Text = "Ativo";
             chkAtivo.UseVisualStyleBackColor = true;
             // 

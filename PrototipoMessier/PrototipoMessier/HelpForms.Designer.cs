@@ -28,7 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
+            pictureBox1 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.BackColor = Color.Transparent;
+            pictureBox1.Image = Properties.Resources.Logo_Messier_removebg_preview;
+            pictureBox1.Location = new Point(109, 12);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(379, 58);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 4;
+            pictureBox1.TabStop = false;
             // 
             // HelpForms
             // 
@@ -36,11 +49,15 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.RoyalBlue;
             ClientSize = new Size(613, 327);
+            Controls.Add(pictureBox1);
             Name = "HelpForms";
             Text = "HelpForms";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
+
+        private PictureBox pictureBox1;
     }
 }

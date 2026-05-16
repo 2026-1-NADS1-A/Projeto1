@@ -44,23 +44,25 @@
             // 
             // txtNome
             // 
-            txtNome.BackColor = Color.DimGray;
+            txtNome.BackColor = Color.White;
+            txtNome.BorderStyle = BorderStyle.FixedSingle;
             txtNome.Location = new Point(171, 44);
             txtNome.Margin = new Padding(3, 2, 3, 2);
             txtNome.Name = "txtNome";
             txtNome.Size = new Size(409, 23);
-            txtNome.TabIndex = 8;
+            txtNome.TabIndex = 1;
             txtNome.TextChanged += txtNome_TextChanged;
             // 
             // txtID
             // 
-            txtID.BackColor = Color.DimGray;
+            txtID.BackColor = Color.White;
+            txtID.BorderStyle = BorderStyle.FixedSingle;
             txtID.ForeColor = Color.Black;
             txtID.Location = new Point(171, 14);
             txtID.Margin = new Padding(3, 2, 3, 2);
             txtID.Name = "txtID";
             txtID.Size = new Size(62, 23);
-            txtID.TabIndex = 7;
+            txtID.TabIndex = 0;
             // 
             // label2
             // 
@@ -97,13 +99,14 @@
             // 
             // checkedListBox1
             // 
-            checkedListBox1.BackColor = Color.DimGray;
+            checkedListBox1.BackColor = Color.White;
+            checkedListBox1.BorderStyle = BorderStyle.FixedSingle;
             checkedListBox1.FormattingEnabled = true;
             checkedListBox1.Location = new Point(171, 72);
             checkedListBox1.Margin = new Padding(3, 2, 3, 2);
             checkedListBox1.Name = "checkedListBox1";
-            checkedListBox1.Size = new Size(252, 76);
-            checkedListBox1.TabIndex = 10;
+            checkedListBox1.Size = new Size(252, 74);
+            checkedListBox1.TabIndex = 2;
             checkedListBox1.SelectedIndexChanged += checkedListBox1_SelectedIndexChanged;
             // 
             // grdPacotes
@@ -118,7 +121,7 @@
             grdPacotes.RowHeadersWidth = 51;
             grdPacotes.ScrollBars = ScrollBars.Vertical;
             grdPacotes.Size = new Size(539, 127);
-            grdPacotes.TabIndex = 11;
+            grdPacotes.TabIndex = 5;
             // 
             // ID
             // 
@@ -144,7 +147,7 @@
             btnSalvar.Margin = new Padding(3, 2, 3, 2);
             btnSalvar.Name = "btnSalvar";
             btnSalvar.Size = new Size(82, 22);
-            btnSalvar.TabIndex = 13;
+            btnSalvar.TabIndex = 3;
             btnSalvar.Text = "Salvar";
             btnSalvar.UseVisualStyleBackColor = true;
             btnSalvar.Click += btnSalvar_Click;
@@ -155,7 +158,7 @@
             btnNovo.Margin = new Padding(3, 2, 3, 2);
             btnNovo.Name = "btnNovo";
             btnNovo.Size = new Size(82, 22);
-            btnNovo.TabIndex = 12;
+            btnNovo.TabIndex = 4;
             btnNovo.Text = "Novo";
             btnNovo.UseVisualStyleBackColor = true;
             btnNovo.Click += btnNovo_Click;
