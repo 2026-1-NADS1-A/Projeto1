@@ -35,7 +35,7 @@
             // pictureBox1
             // 
             pictureBox1.BackColor = Color.Transparent;
-            pictureBox1.Image = Properties.Resources.Logo_Messier_removebg_preview;
+            pictureBox1.Image = Properties.Resources.messier;
             pictureBox1.Location = new Point(109, 12);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(379, 58);
@@ -47,7 +47,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.RoyalBlue;
+            BackColor = Color.FromArgb(18, 18, 18);
             ClientSize = new Size(613, 327);
             Controls.Add(pictureBox1);
             Name = "HelpForms";

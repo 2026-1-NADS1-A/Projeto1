@@ -12,19 +12,25 @@ namespace PrototipoMessier
 {
     public partial class SelecaoLoginForms : Form
     {
+        LoginAdmin  frmLoginAdmin;
+        LoginEscola frmLoginEscola;
+
         public SelecaoLoginForms()
         {
             InitializeComponent();
+            frmLoginAdmin  = new LoginAdmin();
+            frmLoginEscola = new LoginEscola();
+
         }
 
         private void btnLoginAdmin_Click(object sender, EventArgs e)
         {
-
+            frmLoginAdmin.ShowDialog();
         }
 
         private void btnLoginEscola_Click(object sender, EventArgs e)
         {
-
+            frmLoginEscola.ShowDialog();
         }
     }
 }

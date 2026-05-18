@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PrototipoMessier")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d190980ab46d818493f92043d88f67f57f52a9f2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b323b4f1524fa2457d1b4afd4ae27bff68a715a6")]
 [assembly: System.Reflection.AssemblyProductAttribute("PrototipoMessier")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PrototipoMessier")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

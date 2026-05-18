@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PrototipoMessier
+namespace PrototipoMessier.Escola
 {
-    public partial class LoginAdmin : Form
+    public partial class CatalogoJogos : Form
     {
-        public LoginAdmin()
+        public CatalogoJogos()
         {
             InitializeComponent();
         }

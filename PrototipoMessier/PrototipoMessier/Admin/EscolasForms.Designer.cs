@@ -41,14 +41,14 @@
             Pacote = new DataGridViewTextBoxColumn();
             IP = new DataGridViewTextBoxColumn();
             chkPacote = new CheckedListBox();
-            btnSalvar = new Button();
-            btnNovo = new Button();
+            btnSalvarEscola = new Button();
+            btnNovoEscola = new Button();
             ((System.ComponentModel.ISupportInitialize)grdEscolas).BeginInit();
             SuspendLayout();
             // 
             // txtCnpj
             // 
-            txtCnpj.BackColor = Color.DimGray;
+            txtCnpj.BackColor = Color.White;
             txtCnpj.Location = new Point(171, 14);
             txtCnpj.Name = "txtCnpj";
             txtCnpj.Size = new Size(157, 23);
@@ -64,7 +64,6 @@
             label1.Size = new Size(42, 16);
             label1.TabIndex = 1;
             label1.Text = "CNPJ";
-            label1.Click += label1_Click;
             // 
             // label2
             // 
@@ -101,7 +100,7 @@
             // 
             // txtInstituicao
             // 
-            txtInstituicao.BackColor = Color.DimGray;
+            txtInstituicao.BackColor = Color.White;
             txtInstituicao.Location = new Point(171, 44);
             txtInstituicao.Name = "txtInstituicao";
             txtInstituicao.Size = new Size(157, 23);
@@ -109,7 +108,7 @@
             // 
             // txtIP
             // 
-            txtIP.BackColor = Color.DimGray;
+            txtIP.BackColor = Color.White;
             txtIP.Location = new Point(171, 156);
             txtIP.Name = "txtIP";
             txtIP.Size = new Size(157, 23);
@@ -123,7 +122,6 @@
             grdEscolas.Name = "grdEscolas";
             grdEscolas.Size = new Size(539, 127);
             grdEscolas.TabIndex = 6;
-            grdEscolas.CellContentClick += dataGridView1_CellContentClick;
             // 
             // CNPJ
             // 
@@ -154,7 +152,7 @@
             // 
             // chkPacote
             // 
-            chkPacote.BackColor = Color.DimGray;
+            chkPacote.BackColor = Color.White;
             chkPacote.FormattingEnabled = true;
             chkPacote.Items.AddRange(new object[] { "Bronze", "Prata", "Ouro", "Personalizado" });
             chkPacote.Location = new Point(171, 73);
@@ -162,36 +160,36 @@
             chkPacote.Size = new Size(157, 76);
             chkPacote.TabIndex = 2;
             // 
-            // btnSalvar
+            // btnSalvarEscola
             // 
-            btnSalvar.Location = new Point(397, 157);
-            btnSalvar.Margin = new Padding(3, 2, 3, 2);
-            btnSalvar.Name = "btnSalvar";
-            btnSalvar.Size = new Size(82, 22);
-            btnSalvar.TabIndex = 4;
-            btnSalvar.Text = "Salvar";
-            btnSalvar.UseVisualStyleBackColor = true;
-            btnSalvar.Click += btnSalvar_Click;
+            btnSalvarEscola.Location = new Point(397, 157);
+            btnSalvarEscola.Margin = new Padding(3, 2, 3, 2);
+            btnSalvarEscola.Name = "btnSalvarEscola";
+            btnSalvarEscola.Size = new Size(82, 22);
+            btnSalvarEscola.TabIndex = 4;
+            btnSalvarEscola.Text = "Salvar";
+            btnSalvarEscola.UseVisualStyleBackColor = true;
+            btnSalvarEscola.Click += btnSalvar_Click;
             // 
-            // btnNovo
+            // btnNovoEscola
             // 
-            btnNovo.Location = new Point(498, 157);
-            btnNovo.Margin = new Padding(3, 2, 3, 2);
-            btnNovo.Name = "btnNovo";
-            btnNovo.Size = new Size(82, 22);
-            btnNovo.TabIndex = 5;
-            btnNovo.Text = "Novo";
-            btnNovo.UseVisualStyleBackColor = true;
-            btnNovo.Click += btnNovo_Click;
+            btnNovoEscola.Location = new Point(498, 157);
+            btnNovoEscola.Margin = new Padding(3, 2, 3, 2);
+            btnNovoEscola.Name = "btnNovoEscola";
+            btnNovoEscola.Size = new Size(82, 22);
+            btnNovoEscola.TabIndex = 5;
+            btnNovoEscola.Text = "Novo";
+            btnNovoEscola.UseVisualStyleBackColor = true;
+            btnNovoEscola.Click += btnNovo_Click;
             // 
             // EscolasForms
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.RoyalBlue;
+            BackColor = Color.FromArgb(18, 18, 18);
             ClientSize = new Size(613, 327);
-            Controls.Add(btnNovo);
-            Controls.Add(btnSalvar);
+            Controls.Add(btnNovoEscola);
+            Controls.Add(btnSalvarEscola);
             Controls.Add(chkPacote);
             Controls.Add(grdEscolas);
             Controls.Add(txtIP);
@@ -219,8 +217,8 @@
         private TextBox txtIP;
         private DataGridView grdEscolas;
         private CheckedListBox chkPacote;
-        private Button btnSalvar;
-        private Button btnNovo;
+        private Button btnSalvarEscola;
+        private Button btnNovoEscola;
         private DataGridViewTextBoxColumn CNPJ;
         private DataGridViewTextBoxColumn NomeInstituição;
         private DataGridViewTextBoxColumn Pacote;

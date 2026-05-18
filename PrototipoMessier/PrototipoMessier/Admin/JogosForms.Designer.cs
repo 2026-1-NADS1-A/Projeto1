@@ -31,17 +31,17 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
-            txtID = new TextBox();
-            txtNome = new TextBox();
-            txtDescricao = new TextBox();
-            btnNovo = new Button();
-            btnSalvar = new Button();
+            txtIDJogo = new TextBox();
+            txtTituloJogo = new TextBox();
+            txtDescricaoJogo = new TextBox();
+            btnNovoJogo = new Button();
+            btnSalvarJogo = new Button();
             grdJogos = new DataGridView();
             ID = new DataGridViewTextBoxColumn();
             Nome = new DataGridViewTextBoxColumn();
             Descricao = new DataGridViewTextBoxColumn();
             Ativo = new DataGridViewCheckBoxColumn();
-            chkAtivo = new CheckBox();
+            chkAtivoJogo = new CheckBox();
             ((System.ComponentModel.ISupportInitialize)grdJogos).BeginInit();
             SuspendLayout();
             // 
@@ -55,7 +55,6 @@
             label1.Size = new Size(23, 16);
             label1.TabIndex = 0;
             label1.Text = "ID";
-            label1.Click += label1_Click;
             // 
             // label2
             // 
@@ -67,7 +66,6 @@
             label2.Size = new Size(108, 16);
             label2.TabIndex = 1;
             label2.Text = "Título do Jogo";
-            label2.Click += label2_Click;
             // 
             // label3
             // 
@@ -80,62 +78,61 @@
             label3.TabIndex = 2;
             label3.Text = "Descrição";
             // 
-            // txtID
+            // txtIDJogo
             // 
-            txtID.BackColor = Color.White;
-            txtID.BorderStyle = BorderStyle.FixedSingle;
-            txtID.ForeColor = Color.Black;
-            txtID.Location = new Point(171, 14);
-            txtID.Margin = new Padding(3, 2, 3, 2);
-            txtID.Name = "txtID";
-            txtID.Size = new Size(62, 23);
-            txtID.TabIndex = 0;
-            txtID.TextChanged += txtID_TextChanged;
+            txtIDJogo.BackColor = Color.White;
+            txtIDJogo.BorderStyle = BorderStyle.FixedSingle;
+            txtIDJogo.ForeColor = Color.Black;
+            txtIDJogo.Location = new Point(171, 14);
+            txtIDJogo.Margin = new Padding(3, 2, 3, 2);
+            txtIDJogo.Name = "txtIDJogo";
+            txtIDJogo.Size = new Size(62, 23);
+            txtIDJogo.TabIndex = 0;
             // 
-            // txtNome
+            // txtTituloJogo
             // 
-            txtNome.BackColor = Color.White;
-            txtNome.BorderStyle = BorderStyle.FixedSingle;
-            txtNome.Location = new Point(171, 44);
-            txtNome.Margin = new Padding(3, 2, 3, 2);
-            txtNome.Name = "txtNome";
-            txtNome.Size = new Size(409, 23);
-            txtNome.TabIndex = 1;
+            txtTituloJogo.BackColor = Color.White;
+            txtTituloJogo.BorderStyle = BorderStyle.FixedSingle;
+            txtTituloJogo.Location = new Point(171, 44);
+            txtTituloJogo.Margin = new Padding(3, 2, 3, 2);
+            txtTituloJogo.Name = "txtTituloJogo";
+            txtTituloJogo.Size = new Size(409, 23);
+            txtTituloJogo.TabIndex = 1;
             // 
-            // txtDescricao
+            // txtDescricaoJogo
             // 
-            txtDescricao.BackColor = Color.White;
-            txtDescricao.BorderStyle = BorderStyle.FixedSingle;
-            txtDescricao.Location = new Point(171, 72);
-            txtDescricao.Margin = new Padding(3, 2, 3, 2);
-            txtDescricao.Multiline = true;
-            txtDescricao.Name = "txtDescricao";
-            txtDescricao.Size = new Size(409, 63);
-            txtDescricao.TabIndex = 2;
+            txtDescricaoJogo.BackColor = Color.White;
+            txtDescricaoJogo.BorderStyle = BorderStyle.FixedSingle;
+            txtDescricaoJogo.Location = new Point(171, 72);
+            txtDescricaoJogo.Margin = new Padding(3, 2, 3, 2);
+            txtDescricaoJogo.Multiline = true;
+            txtDescricaoJogo.Name = "txtDescricaoJogo";
+            txtDescricaoJogo.Size = new Size(409, 63);
+            txtDescricaoJogo.TabIndex = 2;
             // 
-            // btnNovo
+            // btnNovoJogo
             // 
-            btnNovo.BackColor = Color.White;
-            btnNovo.Location = new Point(259, 163);
-            btnNovo.Margin = new Padding(3, 2, 3, 2);
-            btnNovo.Name = "btnNovo";
-            btnNovo.Size = new Size(82, 22);
-            btnNovo.TabIndex = 5;
-            btnNovo.Text = "Novo";
-            btnNovo.UseVisualStyleBackColor = false;
-            btnNovo.Click += btnNovo_Click;
+            btnNovoJogo.BackColor = Color.White;
+            btnNovoJogo.Location = new Point(259, 163);
+            btnNovoJogo.Margin = new Padding(3, 2, 3, 2);
+            btnNovoJogo.Name = "btnNovoJogo";
+            btnNovoJogo.Size = new Size(82, 22);
+            btnNovoJogo.TabIndex = 5;
+            btnNovoJogo.Text = "Novo";
+            btnNovoJogo.UseVisualStyleBackColor = false;
+            btnNovoJogo.Click += btnNovo_Click;
             // 
-            // btnSalvar
+            // btnSalvarJogo
             // 
-            btnSalvar.BackColor = Color.White;
-            btnSalvar.Location = new Point(171, 163);
-            btnSalvar.Margin = new Padding(3, 2, 3, 2);
-            btnSalvar.Name = "btnSalvar";
-            btnSalvar.Size = new Size(82, 22);
-            btnSalvar.TabIndex = 4;
-            btnSalvar.Text = "Salvar";
-            btnSalvar.UseVisualStyleBackColor = false;
-            btnSalvar.Click += btnSalvar_Click;
+            btnSalvarJogo.BackColor = Color.White;
+            btnSalvarJogo.Location = new Point(171, 163);
+            btnSalvarJogo.Margin = new Padding(3, 2, 3, 2);
+            btnSalvarJogo.Name = "btnSalvarJogo";
+            btnSalvarJogo.Size = new Size(82, 22);
+            btnSalvarJogo.TabIndex = 4;
+            btnSalvarJogo.Text = "Salvar";
+            btnSalvarJogo.UseVisualStyleBackColor = false;
+            btnSalvarJogo.Click += btnSalvar_Click;
             // 
             // grdJogos
             // 
@@ -187,31 +184,31 @@
             Ativo.SortMode = DataGridViewColumnSortMode.Automatic;
             Ativo.Width = 75;
             // 
-            // chkAtivo
+            // chkAtivoJogo
             // 
-            chkAtivo.AutoSize = true;
-            chkAtivo.Font = new Font("MS Reference Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            chkAtivo.ForeColor = Color.White;
-            chkAtivo.Location = new Point(171, 139);
-            chkAtivo.Name = "chkAtivo";
-            chkAtivo.Size = new Size(62, 20);
-            chkAtivo.TabIndex = 3;
-            chkAtivo.Text = "Ativo";
-            chkAtivo.UseVisualStyleBackColor = true;
+            chkAtivoJogo.AutoSize = true;
+            chkAtivoJogo.Font = new Font("MS Reference Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            chkAtivoJogo.ForeColor = Color.White;
+            chkAtivoJogo.Location = new Point(171, 139);
+            chkAtivoJogo.Name = "chkAtivoJogo";
+            chkAtivoJogo.Size = new Size(62, 20);
+            chkAtivoJogo.TabIndex = 3;
+            chkAtivoJogo.Text = "Ativo";
+            chkAtivoJogo.UseVisualStyleBackColor = true;
             // 
             // JogosForms
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.RoyalBlue;
+            BackColor = Color.FromArgb(18, 18, 18);
             ClientSize = new Size(613, 327);
-            Controls.Add(chkAtivo);
+            Controls.Add(chkAtivoJogo);
             Controls.Add(grdJogos);
-            Controls.Add(btnSalvar);
-            Controls.Add(btnNovo);
-            Controls.Add(txtDescricao);
-            Controls.Add(txtNome);
-            Controls.Add(txtID);
+            Controls.Add(btnSalvarJogo);
+            Controls.Add(btnNovoJogo);
+            Controls.Add(txtDescricaoJogo);
+            Controls.Add(txtTituloJogo);
+            Controls.Add(txtIDJogo);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -229,13 +226,13 @@
         private Label label1;
         private Label label2;
         private Label label3;
-        private TextBox txtID;
-        private TextBox txtNome;
-        private TextBox txtDescricao;
-        private Button btnNovo;
-        private Button btnSalvar;
+        private TextBox txtIDJogo;
+        private TextBox txtTituloJogo;
+        private TextBox txtDescricaoJogo;
+        private Button btnNovoJogo;
+        private Button btnSalvarJogo;
         private DataGridView grdJogos;
-        private CheckBox chkAtivo;
+        private CheckBox chkAtivoJogo;
         private DataGridViewTextBoxColumn ID;
         private DataGridViewTextBoxColumn Nome;
         private DataGridViewTextBoxColumn Descricao;
